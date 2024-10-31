@@ -1,0 +1,20 @@
+{
+	"name": "hono-react-resume",
+	"module": "server/index.ts",
+	"scripts": {
+		"start": "bun server/index.ts",
+		"dev": "bun --watch server/index.ts"
+	},
+	"type": "module",
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@hono/zod-validator": "^0.4.1",
+		"hono": "^4.6.8",
+		"zod": "^3.23.8"
+	}
+}
